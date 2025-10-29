@@ -1,2 +1,99 @@
-# portfolio
-hey I am frontend Developer And UI designer
+[index.html](https://github.com/user-attachments/files/23206304/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ain Malik | Frontend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ <header>
+  <div class="container">
+    <div class="logo">
+      <img src="https://static.vecteezy.com/system/resources/previews/009/150/017/non_2x/ain-logo-ain-letter-ain-letter-logo-design-initials-ain-logo-linked-with-circle-and-uppercase-monogram-logo-ain-typography-for-technology-business-and-real-estate-brand-vector.jpg" alt="Ain Malik Logo" class="logo-img">
+      <h1>Ain<span> Malik</span></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <section class="hero">
+  <div class="hero-content">
+    <img src="images/profile.png" alt="Ain Malik" class="profile-pic">
+    <div class="intro-text">
+      <h2>Hi, I'm <span id="typewriter"></span></h2>
+      <p>Frontend Developer | UI Designer</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a frontend developer focused on writing clean, efficient code and building engaging user interfaces. I love bringing ideas to life in the browser using HTML, CSS, and JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><h3>HTML</h3><div class="bar"><span style="width:95%"></span></div></div>
+        <div class="skill"><h3>CSS</h3><div class="bar"><span style="width:90%"></span></div></div>
+        <div class="skill"><h3>JavaScript</h3><div class="bar"><span style="width:80%"></span></div></div>
+        <div class="skill"><h3>React</h3><div class="bar"><span style="width:70%"></span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="card">
+          <img src="https://cdn.dribbble.com/userupload/20585018/file/still-3a3c949581639300f2b07079424abbf5.png?format=webp&resize=400x300&vertical=center" alt="Project 1" />
+          <h3>Event Management UI</h3>
+          <p>Clean and responsive event booking interface built with HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/userupload/34116204/file/original-0baa435d739a15b1ecc612fd4eb332f4.png?format=webp&resize=400x300&vertical=center" alt="Project 2" />
+          <h3>Portfolio Website</h3>
+          <p>Personal portfolio showcasing design and frontend skills using CSS animations.</p>
+        </div>
+        <div class="card">
+          <img src="https://cdn.dribbble.com/userupload/16467699/file/still-66b588da559b992bf1a388f31d96a7bb.png?format=webp&resize=400x300&vertical=center" alt="Project 3" />
+          <h3>Landing Page</h3>
+          <p>Modern landing page for a startup using flexbox and grid layouts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p> </p>
+      <p>Have a project in mind or just want to say hello? Reach out below!</p>
+      <a href="mailto:Ainamalik145@gmail.com" class="btn">Send Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ain Malik | Frontend Developer</p>
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
